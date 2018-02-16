@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Astro Weight Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+     <h1><strong>Astro Weight Calculator</strong></h1>
+     <div id="preInterface">
+        <h4>Add a <strong>planet</strong> and a <strong>weight multiplier</strong> or <strong>leave empty</strong> to use current planets.</h4>
+        <div id='plutoDiv'>
+            <input type="checkbox" id="checker"/> Check box to <strong>include Pluto</strong>
+        </div>
+        <input id='newPlanet' placeholder="New Planet" />
+        <input id='newWeight' placeholder="Weight Multiplier" />
+        <button id="populate" class="btn btn-success">Populate List</button>
+    </div>
+     <div id="interface">
+        <h4>Enter your <strong>weight</strong>, choose a <strong>Planet</strong>, and hit <strong>calculate</strong>.</h4>
+        <input id="user-weight" type="text" placeholder="Weight (lbs)" />
+        <select id="planets"></select>
+        <button id="calculate-button" class="btn btn-success">Calculate</button>
+        <button id="rePop" class="btn btn-warning">Modify List</button>
+     </div>
+     <div id="outputReset">
+        <p id="output"></p>
+        <button id="again" class="btn btn-success">Again!</button>
+    </div>
+    <!-- <script src"http://code.jquery.com/jquery-3.3.1.js"></script> -->
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>

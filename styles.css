@@ -1,0 +1,12 @@
+h1 {text-align: center;
+    color: lightseagreen}
+h3 {text-align: center;
+    color: lightseagreen}
+h4 {color: lightseagreen}
+#interface {text-align: center}
+#output {text-align: center}
+#outputReset {text-align: center}
+#preInterface {text-align: center}
+body {background-image: url(solarSystem.jpg)}
+#plutoDiv {color: lightseagreen}
+strong {color: rgb(211, 116, 1)}
